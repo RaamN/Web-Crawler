@@ -108,9 +108,7 @@ def process_url_group(group, useragentstr):
     return extract_next_links(rawDatas), rawDatas
     
 #######################################################################################
-'''
-STUB FUNCTIONS TO BE FILLED OUT BY THE STUDENT.
-'''
+
 maxPageURL = None
 maxHref = 0
 def extract_next_links(rawDatas):
