@@ -1,9 +1,4 @@
 #!/usr/bin/python
-'''
-Created on Apr 19, 2016
-
-@author: Rohan Achar
-'''
 import sys
 import argparse
 from spacetime.store_server import FrameServer
