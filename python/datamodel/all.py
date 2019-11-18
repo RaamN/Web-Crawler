@@ -1,8 +1,3 @@
-'''
-Created on Apr 19, 2016
-
-@author: Rohan Achar
-'''
 import pkgutil
 import importlib
 import inspect
