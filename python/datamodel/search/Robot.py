@@ -1,6 +1,4 @@
-'''
-@Author: Rohan Achar ra.rohan@gmail.com
-'''
+
 try:
     import robotparser
     from urlparse import urlparse, parse_qs
