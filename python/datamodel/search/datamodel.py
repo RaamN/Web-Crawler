@@ -1,8 +1,3 @@
-'''
-Created on Oct 20, 2016
-
-@author: Rohan Achar
-'''
 from __future__ import absolute_import
 import logging
 from pcc.subset import subset
