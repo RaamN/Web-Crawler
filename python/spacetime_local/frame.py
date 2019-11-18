@@ -1,8 +1,3 @@
-﻿'''
-Created on Apr 19, 2016
-
-@author: Rohan Achar
-'''
 from __future__ import absolute_import
 
 from threading import Thread as Parallel
