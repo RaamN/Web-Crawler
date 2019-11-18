@@ -1,9 +1,4 @@
 #!/usr/bin/python
-'''
-Created on Oct 21, 2016
-
-@author: Rohan Achar
-'''
 
 import logging
 import logging.handlers
@@ -39,10 +34,6 @@ def SetupLoggers():
     logging.info("testing before")
     logger.setLevel(logging.DEBUG)
 
-    #logfile = os.path.join(os.path.dirname(__file__), "../../logs/CADIS.log")
-    #flog = logging.handlers.RotatingFileHandler(logfile, maxBytes=10*1024*1024, backupCount=50, mode='w')
-    #flog.setFormatter(logging.Formatter('%(levelname)s [%(name)s] %(message)s'))
-    #logger.addHandler(flog)
     logging.getLogger("requests").setLevel(logging.WARNING)
     logging.getLogger("urllib3").setLevel(logging.WARNING)
     clog = logging.StreamHandler()
