@@ -1,8 +1,3 @@
-'''
-Created on Jul 7, 2016
-
-@author: Arthur Valadares
-'''
 import platform
 
 def get_os():
