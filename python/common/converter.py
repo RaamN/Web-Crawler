@@ -1,9 +1,3 @@
-﻿'''
-Created on Apr 19, 2016
-
-@author: Rohan Achar
-'''
-
 from common.recursive_dictionary import RecursiveDictionary
 
 import uuid
