@@ -1,8 +1,3 @@
-﻿#!/usr/bin/python
-'''
-Created on Feb 19, 2016
-author: arthurvaladares, Rohan Achar
-'''
 from functools import wraps
 import json
 import logging, logging.handlers
