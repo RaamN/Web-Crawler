@@ -1,9 +1,4 @@
 #!/usr/bin/python
-'''
-Created on Oct 21, 2016
-
-@author: Rohan Achar
-'''
 
 import logging
 import logging.handlers
