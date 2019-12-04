@@ -158,19 +158,15 @@ def is_valid(url):
     Function returns True or False based on whether the url has to be downloaded or not.
     Robot rules and duplication rules are checked separately.
     This is a great place to filter out crawler traps.
+    
+    If "?" is in the URL, it is most likely a dynamic URL, also filter out other common crawler traps
     '''
     global INVALID_LINKS
-    # if "?" in url or "datasets" in url or "~develop" in url or "contact/student-affairs" in url:
-    #     INVALID_LINKS += 1
-    #     return False
     if "php" in url or "mailto:" in url or "Mass2Structure" in url or ".db" in url \
             or "archive" in url or ".." in url or "fano" in url or "mlearn" in url or "ganglia" in url or "calendar" in url \
             or "?" in url or "datasets" in url or "~develop" in url or "contact/student-affairs" in url or "cgi" in url:
         INVALID_LINKS += 1
         return False
-    # if "archive" in url or ".." in url or "fano" in url or "mlearn" in url or "ganglia" in url or "calendar" in url:
-    #     INVALID_LINKS += 1
-    #     return False
     list1 = url.split("/")
     if len(list1) != len(set(list1)):
         INVALID_LINKS += 1
